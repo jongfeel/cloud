@@ -1,7 +1,9 @@
 # kloud
 url : www.kloudbeer.com/about_kloud.asp
 
-## 필요한기술 + 배워야할 기술 
+## 
+
+## 필요한 기술 + 배워야할 기술 
 
 - markup
   #HTML
@@ -15,11 +17,9 @@ url : www.kloudbeer.com/about_kloud.asp
   library
     #slider
 	
-	
-
------------------------------------------------소스분석---------------------------------------------------
 
 
+## 소스분석 
 
 ## aboutkloud.js
 
@@ -45,11 +45,16 @@ url : www.kloudbeer.com/about_kloud.asp
 #95~102 width 값에 따른 넓이값 고정
 
 
+## kloudsecret.js
+
+#140~ 마우스 휠 관련 스크립트 
+
 
 ## common.js
-
-
-
+## facebook.js
+## jquery.easing.1.3.js
+## jquery.mousewheel.js
+## jquery-1.10.2.min.js
 
 
 
