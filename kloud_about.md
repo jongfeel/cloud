@@ -51,6 +51,7 @@ url : www.kloudbeer.com/about_kloud.asp
 
 
 ## common.js
+- 쿠키
 ## facebook.js
 ## jquery.easing.1.3.js
 ## jquery.mousewheel.js
