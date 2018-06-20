@@ -1,24 +1,6 @@
 # kloud
 url : www.kloudbeer.com/about_kloud.asp
 
-## 
-
-## 필요한 기술 + 배워야할 기술 
-
-- markup
-  #HTML
-
-- style
-  #CSS Transitions
-  #CSS Animation 
-  #CSS Transform
-
-- script
-  library
-    #slider
-	
-
-
 ## 소스분석 
 
 ## aboutkloud.js
@@ -27,7 +9,25 @@ url : www.kloudbeer.com/about_kloud.asp
 
 #4~24 브라우저체크 (userAgent)
 
-- https://developer.mozilla.org/ko/docs/Web/HTTP/User_agent%EB%A5%BC_%EC%9D%B4%EC%9A%A9%ED%95%9C_%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80_%EA%B0%90%EC%A7%80
+- function($) : $는 왜 넣어놓는건지? 인자값 받는 곳?
+
+
+- 브라우저 체크 참고 블로그 
+출처: http://blog.opid.kr/125 [opid's document]
+
+사용예 
+
+if ((Browser.ie9) || (Browser.ie10)) {
+	// 브라우저가 IE9, 10일 때 실행할 코드
+} else if(Browser.chrome) {
+	// chrome
+} else if(Browser.firefox) {
+	// fierfox
+} else {
+	// 그 외 실행할 코드
+}
+
+
 
 #26~34 애니메이션 관련 초기 변수값 설정 
 
