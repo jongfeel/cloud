@@ -1,6 +1,6 @@
 # kloud
 url : www.kloudbeer.com/about_kloud.asp
-![2171d43e56adc9f018](https://user-images.githubusercontent.com/13567708/41646841-be933164-74af-11e8-8b8e-64e715ee37da.png)
+
 ## 목표 : 
 css3를 활용한 동적 UI로 구현해낸 클라우드 맥주 브랜드 페이지 만들기
 
