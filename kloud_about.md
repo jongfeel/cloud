@@ -1,6 +1,56 @@
 # kloud
 url : www.kloudbeer.com/about_kloud.asp
 
+## 목표 : 
+css3를 활용한 동적 UI로 구현해낸 클라우드 맥주 브랜드 페이지 만들기
+
+
+## 특징 :
+- 원페이지 구조로 슬라이드 형식
+- 스크롤 제어에 의해 컨텐츠 움직임 
+- 이미지, 비디오, html 컨텐츠 제공
+- 지원브라우저
+- 갤러리 페이지
+
+
+## 필요한 기술 + 배워야할 기술 
+
+
+- markup
+ 
+1. HTML
+
+
+
+- style
+
+1. CSS Transitions
+
+2. CSS Animation
+3. CSS Transform
+
+
+
+- script
+ : 
+1. slider
+2. scroll 관련
+ 
+
+## kloud 메뉴 구성도 :
+
+01 클라우드 소개 / about_kloud.html / aboutkloud.js 
+02
+03
+04
+05
+06
+00 팝업 
+
+
+
+
+
 ## 소스분석 
 
 ## aboutkloud.js
