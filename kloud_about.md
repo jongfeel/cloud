@@ -30,12 +30,12 @@ scroll
 
 ## kloud 메뉴 구성도 :
 
-01 About Kloud(about_kloud.asp) --> 서브메뉴 5개
-02 kloud Secret(about_kloud.asp) --> 서브메뉴 4개
-03 kloud gallery --> 상단 메뉴 클릭 시 소팅되는 형태(일정 개수 초과시 +버튼) --> 중앙 이미지 슬라이드 모달창
-04 kloud square --> 상단 메뉴 클릭 시 소팅되는 형태(일정 개수 초과시 +버튼)  --> 각 sns로 링크 연결 
-05 kloud beer station --> 컨텐츠 클릭 시 중앙 이미지 슬라이드 모달창 
-00 팝업 
+- 01 About Kloud(about_kloud.asp) --> 서브메뉴 5개
+- 02 kloud Secret(about_kloud.asp) --> 서브메뉴 4개
+- 03 kloud gallery --> 상단 메뉴 클릭 시 소팅되는 형태(일정 개수 초과시 +버튼) --> 중앙 이미지 슬라이드 모달창
+- 04 kloud square --> 상단 메뉴 클릭 시 소팅되는 형태(일정 개수 초과시 +버튼)  --> 각 sns로 링크 연결 
+- 05 kloud beer station --> 컨텐츠 클릭 시 중앙 이미지 슬라이드 모달창 
+- 00 팝업 
 
 
 ## 폰트
