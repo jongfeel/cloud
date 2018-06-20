@@ -4,20 +4,26 @@
   
 ## git bash 앱에서 하단과 같이 아이디와 이메일 입력 
 
+
 ![_1](https://user-images.githubusercontent.com/13567708/41658854-ac31240e-74d2-11e8-8f19-302f307055cb.png)
+
 
 
 ## 온라인 저장소 만들기
   - 프로젝트가 거주할 공간 만들기 > github 페이지 > new repository page > public 설정 후 생성
   
+  
 ![2](https://user-images.githubusercontent.com/13567708/41658858-adeb303c-74d2-11e8-83a0-96862542e9a3.png)
+
 
 
 ## 로컬 저장소 만들기
   - 위에서는 온라인 상의 프로젝트 공간 / 로컬 디렉토리에 저장소 생성 > 디렉토리를 만들고 git init 명령어로
     git 저장소 명시
     
+    
 ![3](https://user-images.githubusercontent.com/13567708/41658861-b02dc490-74d2-11e8-8a1a-1aff98d5ace7.png)
+
 
 ## 로컬저장소와 깃허브 저장소 연결
    - cloud 라는 저장소에 git init 명령어로 git 저장소 명시
@@ -29,7 +35,9 @@
 
 
 ## 깃허브 원격저장소로 변경사항 업로드 
+
 ![1](https://user-images.githubusercontent.com/13567708/41658992-0ae4c28a-74d3-11e8-8e3a-d2fdf0460474.png)
+
     - 파일을 새로 생성한 후, git status 명령을 실행하면 untracked 파일을 보여줍니다. 
       아직 스냅샷(commit)에 넣어지지 않은 파일이라고 보고 파일이 tracked 상태가 되기 전까지 
       gitdms 절대 해당 파일을 commit 하지 않습니다.  
@@ -37,7 +45,9 @@
       git add를 한 후 git status 명령을 다시 실행하면 해당 파일이 tracked 상태이면서 staged 상태라는 것을 확인할 수 있습니다.
       
       
+      
 ![2](https://user-images.githubusercontent.com/13567708/41658993-0b14311e-74d3-11e8-9ba5-95dac6c10c77.png)
+
 
    - 수정한 것을 commit 하기 위해 staging area에 파일을 정리했습니다. 
      unstaged 상태의 파일은 commit 되지 않습니다.  
