@@ -54,16 +54,24 @@ git add를 한 후 git status 명령을 다시 실행하면 해당 파일이 tra
 
 ~~~
 수정한 것을 commit 하기 위해 staging area에 파일을 정리했습니다. unstaged 상태의 파일은 commit 되지 않습니다.  
-
+~~~
+~~~
 git 은 생성 혹은 수정 후의 git add 명령으로 추가하지 않은 파일은 commit 하지 않습니다. 그 파일은 여전히 modified 상태로 남아 있게 됩니다. 
 git commit -m "변경된 메시지 내용" ( * 변경된 메시지 내용을 적어주지 않으면 vim 내장 편집기 가 실행됩니다. )  
-git 에서 commit은 변경사항을 내컴퓨터에 저장한다는 의미입니다. 위 명령어를 실행하면 작업흐름상에 변경된 파일이 head에 반영될 것입니다. 하지만 원격저장소에는 아직 반영되지 않습니다.  
-
-git push 변경된 내용 발행하기 push는 마지막으로 commit한 사항을 git repository에 올리겠다는 뜻입니다. push가 안되면 원격 서버에 변경사항이 저장되지 않습니다. 
-다시말해서, 프로젝트를 공유하고 싶을 때 remote저장소에 push 할 수 있습니다. commit 까지 실행했다면 현재의 변경 내용은 아직 로컬저장소의 head에 머물고 있을 것입니다. 
+git 에서 commit은 변경사항을 내컴퓨터에 저장한다는 의미입니다. 위 명령어를 실행하면 작업흐름상에 변경된 파일이 head에 반영될 것입니다. 
+하지만 원격저장소에는 아직 반영되지 않습니다.  
+~~~
+~~~
+git push 변경된 내용 발행하기 push는 마지막으로 commit한 사항을 git repository에 올리겠다는 뜻입니다. 
+push가 안되면 원격 서버에 변경사항이 저장되지 않습니다. 
+다시말해서, 프로젝트를 공유하고 싶을 때 remote저장소에 push 할 수 있습니다. 
+commit 까지 실행했다면 현재의 변경 내용은 아직 로컬저장소의 head에 머물고 있을 것입니다. 
 이제 이 변경내용을 원격서버로 올리기 위해 아래 명령을 실행합니다.  
- git push -u origin master 
+git push -u origin master 
+~~~
+~~~
 
- 위 명령어 중 origin과 master는 각각 remote저장소와 branch를 의미합니다.  -u는 remote저장소로부터 업데이트를 받은 후, push를 한다는 의미이므로 습관적으로 -u 사용을 권장합니다. 
+위 명령어 중 origin과 master는 각각 remote저장소와 branch를 의미합니다.  
+-u는 remote저장소로부터 업데이트를 받은 후, push를 한다는 의미이므로 습관적으로 -u 사용을 권장합니다. 
 그 이유는 clone한 사람이 여러 명 있을 경우, 다른 사람이 push 한 후에 push 하려고 하면 할 수 없기 때문에 먼저 다른 사람이 작업한 것을 가져와서 merge 한 후에 push 할 수 있습니다.
 ~~~
