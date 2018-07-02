@@ -39,13 +39,13 @@
 ## 깃허브 원격저장소로 변경사항 업로드 
 
 ![1](https://user-images.githubusercontent.com/13567708/41658992-0ae4c28a-74d3-11e8-8e3a-d2fdf0460474.png)
-
-    - 파일을 새로 생성한 후, git status 명령을 실행하면 untracked 파일을 보여줍니다. 
-      아직 스냅샷(commit)에 넣어지지 않은 파일이라고 보고 파일이 tracked 상태가 되기 전까지 
-      gitdms 절대 해당 파일을 commit 하지 않습니다.  
-      - 그렇기 때문에 git add 명령어로 직접 tracked 상태로 만들어 해당 파일을 추적하게 만드는 겁니다. 
-      git add를 한 후 git status 명령을 다시 실행하면 해당 파일이 tracked 상태이면서 staged 상태라는 것을 확인할 수 있습니다.
-      
+~~~
+파일을 새로 생성한 후, git status 명령을 실행하면 untracked 파일을 보여줍니다. 
+아직 스냅샷(commit)에 넣어지지 않은 파일이라고 보고 파일이 tracked 상태가 되기 전까지 
+gitdms 절대 해당 파일을 commit 하지 않습니다.  
+그렇기 때문에 git add 명령어로 직접 tracked 상태로 만들어 해당 파일을 추적하게 만드는 겁니다. 
+git add를 한 후 git status 명령을 다시 실행하면 해당 파일이 tracked 상태이면서 staged 상태라는 것을 확인할 수 있습니다.
+~~~
       
       
 ![2](https://user-images.githubusercontent.com/13567708/41658993-0b14311e-74d3-11e8-9ba5-95dac6c10c77.png)
