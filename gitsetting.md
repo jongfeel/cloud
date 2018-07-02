@@ -1,7 +1,8 @@
 ## git github 설정
-* github 가입
-* git 설치 
-
+~~~
+1. github 가입
+2. git 설치 
+~~~
 
 ## git bash 앱에서 하단과 같이 아이디와 이메일 입력 
 ![_1](https://user-images.githubusercontent.com/13567708/41658854-ac31240e-74d2-11e8-8f19-302f307055cb.png)
