@@ -21,7 +21,8 @@ $('.b_txt01').stop().animate({'opacity':'0', 'right':'30px'},0);
 $('.b_txt02').stop().animate({'opacity':'0', 'right':'30px'},0);
 $('.b_txt03').stop().animate({'opacity':'0', 'right':'30px'},0);
 
+//변화하는 속성이 동일 할 경우 선택자 내부에 , 로 구분하여 한번에 사용 가능
 $('.b_txt01, .b_txt02, .b_txt03').stop().animate({'opacity':'0', 'right':'30px'},0);
-//변화하는 속성이 동일 할 경우 선택자 내부에 , 로 구분하여 한번에 사용 가능 
+ 
 ```
 2. 
