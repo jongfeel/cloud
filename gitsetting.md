@@ -78,7 +78,7 @@ git push -u origin master
 ### git에 폴더 업로드 하기
 ![4](https://user-images.githubusercontent.com/13567708/42151281-6e9b24a2-7e17-11e8-9a91-580d8b21ba1e.png)
 
-* 다른 로컬 저장소에 github 연결하기 번거로울 때는 git clone 을 사용
+다른 로컬 저장소에 github 연결하기 번거로울 때는 git clone 을 사용
 ~~~
 git clone https://github.com/eunyoung739/cloud.git
 ~~~
