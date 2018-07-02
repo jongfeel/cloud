@@ -1,15 +1,15 @@
-## git github 설정
+### git github 설정
 ~~~
 github 가입
 git 설치 
 ~~~
 
-## git bash 앱에서 하단과 같이 아이디와 이메일 입력 
+### git bash 앱에서 하단과 같이 아이디와 이메일 입력 
 ![_1](https://user-images.githubusercontent.com/13567708/41658854-ac31240e-74d2-11e8-8f19-302f307055cb.png)
 
 
 
-## 온라인 저장소 만들기
+### 온라인 저장소 만들기
 ~~~
 프로젝트가 거주할 공간 만들기 > github 페이지 > new repository page > public 설정 후 생성
 ~~~
@@ -17,7 +17,7 @@ git 설치
 
 
 
-## 로컬 저장소 만들기
+### 로컬 저장소 만들기
 ~~~
 위에서는 온라인 상의 프로젝트 공간 / 로컬 디렉토리에 저장소 생성 > 디렉토리를 만들고 git init 명령어로
 git 저장소 명시
@@ -38,7 +38,7 @@ git remote -v  >  이 명령어는 로컬 저장소가 알고 있는 원격 orig
 ![111](https://user-images.githubusercontent.com/13567708/41658991-0ab6616a-74d3-11e8-9eba-ccfbf01a4038.png)
 
 
-## 깃허브 원격저장소로 변경사항 업로드 
+### 깃허브 원격저장소로 변경사항 업로드 
 
 ![1](https://user-images.githubusercontent.com/13567708/41658992-0ae4c28a-74d3-11e8-8e3a-d2fdf0460474.png)
 ~~~
