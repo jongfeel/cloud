@@ -73,3 +73,22 @@ git push -u origin master
 그 이유는 clone한 사람이 여러 명 있을 경우, 다른 사람이 push 한 후에 push 하려고 하면 할 수 없기 때문에 
 먼저 다른 사람이 작업한 것을 가져와서 merge 한 후에 push 할 수 있습니다.
 ~~~
+
+
+### git에 폴더 업로드 하기
+![4](https://user-images.githubusercontent.com/13567708/42151281-6e9b24a2-7e17-11e8-9a91-580d8b21ba1e.png)
+
+* 다른 로컬 저장소에 github 연결하기 번거로울 때는 git clone 을 사용
+~~~
+git clone https://github.com/eunyoung739/cloud.git
+~~~
+git clone 명령어로 복제 한뒤 업로드 할 폴더를 해당 폴더에 넣는다. 
+~~~
+
+git add .
+
+git commit -am "original source"
+
+git push
+~~~
+
