@@ -94,3 +94,5 @@ git push
 
 
 ### github 저장소 이름 및 url 변경하기 
+![4](https://user-images.githubusercontent.com/13567708/42206331-c34b2b9e-7ee1-11e8-9283-368ff492cdec.png)
+![5](https://user-images.githubusercontent.com/13567708/42206360-d70369a8-7ee1-11e8-8da8-4702a6855010.png)
