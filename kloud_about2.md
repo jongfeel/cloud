@@ -1,24 +1,39 @@
 ## aboutkoud.js 소스분석
 
 ```
-1. 106 번째줄
+82번째줄 ~ 160번째줄
+$(selector).resize(function)    // jquery api -> resize 메소드 -> 함수 형태로 인자 값? 
+함수 형태도 가능하다면 2) 번처럼도 가능??
+1) $(window).resize(function () { resizeFunc() });
+2) $(window).resize( resizeFunc() {   });
+
+- 메소드와 함수의 차이 
+
+
+```
+
+```
+106 번째줄
 주석 // 첫번째 슬라이드에서 윈도우창 크기가 1024아래일때 위치값 조정 -> 1024 이상일때가 맞는거 같은데...?
 ```
+
 ```
-2. 891,894 번째줄  
+891,894 번째줄  
 $(".rollover")라는 선택자에 .hover(function(){  /  ,function(){ 함수가 두개가 연결되서 쓰이는 구조??
 
-hover 와 mouseenter 차이
-https://ux.stackexchange.com/questions/106380/what-is-the-difference-between-a-mouseover-and-a-hoverover/106382
+-hover 와 mouseenter 차이
+참고링크 : https://ux.stackexchange.com/questions/106380/what-is-the-difference-between-a-mouseover-and-a-hoverover/106382
 
 Calling $(selector).hover(handlerIn, handlerOut)    /   $(selector).mouseenter(handlerIn).mouseleave(handlerOut);
 위에 handlerIn 과 handlerOut 에 각각 함수로 ...쓴것?
 
+-replace 함수 
 var result = test.replace('가', '나'); //가를 나로 바꿔라
 
 ```
+
 ```
-3. 955 번째줄 
+955 번째줄 
 $(document).on("click",".close_bt2 a",function(){
 $(".close_bt2 a").click( function(){
 둘의 차이 .on은??
