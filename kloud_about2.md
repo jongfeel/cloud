@@ -8,7 +8,12 @@
 2. 891,894 번째줄  
 $(".rollover")라는 선택자에 .hover(function(){  /  ,function(){ 함수가 두개가 연결되서 쓰이는 구조??
 
-var result = test.replace('가', '나'); //가를 나로
+hover 와 mouseenter 차이
+Calling $(selector).hover(handlerIn, handlerOut)    /   $(selector).mouseenter(handlerIn).mouseleave(handlerOut);
+위에 handlerIn 과 handlerOut 에 각각 함수로 ...쓴것?
+
+var result = test.replace('가', '나'); //가를 나로 바꿔라
+
 ```
 ```
 3. 955 번째줄 
