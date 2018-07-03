@@ -9,6 +9,8 @@
 $(".rollover")라는 선택자에 .hover(function(){  /  ,function(){ 함수가 두개가 연결되서 쓰이는 구조??
 
 hover 와 mouseenter 차이
+https://ux.stackexchange.com/questions/106380/what-is-the-difference-between-a-mouseover-and-a-hoverover/106382
+
 Calling $(selector).hover(handlerIn, handlerOut)    /   $(selector).mouseenter(handlerIn).mouseleave(handlerOut);
 위에 handlerIn 과 handlerOut 에 각각 함수로 ...쓴것?
 
