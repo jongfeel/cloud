@@ -16,6 +16,15 @@ $(selector).resize(function)    // jquery api -> resize 메소드 -> 함수 형�
 ```
 106 번째줄
 주석 // 첫번째 슬라이드에서 윈도우창 크기가 1024아래일때 위치값 조정 -> 1024 이상일때가 맞는거 같은데...?
+
+.animate( properties [, duration ] [, easing ] [, complete ] )  //resize 처럼 aniamte도 메소드?? 이겠죠? 
+
+너비가 1024 이상일 경우 슬라이드1의 컨텐츠들의 위치 조정 
+위에 var aniTime = 500 // 오브젝트 애니메이션 시간 변수 선언을 해놓고 안썼네요...ㅎㅎ 500은 저 변수로 다 교체 가능! 
+
+
+
+
 ```
 
 ```
