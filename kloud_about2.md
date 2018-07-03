@@ -36,7 +36,8 @@ $(".rollover")라는 선택자에 .hover(function(){  /  ,function(){ 함수가 
 참고링크 : 
 https://ux.stackexchange.com/questions/106380/what-is-the-difference-between-a-mouseover-and-a-hoverover/106382
 
-Calling $(selector).hover(handlerIn, handlerOut) / $(selector).mouseenter(handlerIn).mouseleave(handlerOut);
+$(selector).hover(handlerIn, handlerOut) / $(selector).mouseenter(handlerIn).mouseleave(handlerOut);
+결국 같은거라는 의미 같네용 
 위에 handlerIn 과 handlerOut 에 각각 함수로 ...쓴것?
 
 -replace 함수 
