@@ -1,4 +1,32 @@
+## aboutkoud.html 소스분석
+
+```
+66번째줄
+li 태그 내부에 <li data-slide="1" id="sub_navi01_01"> 
+data-slide 이런것
+92번째줄
+<div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0">  
+data-slide="1" data-stellar-background-ratio="0" 이런것은 왜? 
+
+attr 로 js 에서 접근(?) 가능 dataslide = $(this).parent().attr('data-slide'); 
+라이브러리가 아닌 것? 
+```
+
 ## aboutkoud.js 소스분석
+
+```
+70번째줄
+
+$(window).load(function(){
+ var scrollTo = '0px';
+ $('body, html').delay(100).animate({scrollTop:scrollTo},1);
+ startFunc();
+ resizeFunc()
+});
+굳이 scrollTo 라는 변수를 또 만들어서 쓸 필요가 있나요? 
+$('body, html').delay(100).animate({scrollTop:0});
+ 
+```
 
 ```
 82번째줄
