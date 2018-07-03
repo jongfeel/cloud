@@ -42,3 +42,7 @@ $('.b_txt01, .b_txt02, .b_txt03').stop().animate({'opacity':'0', 'right':'30px'}
  
 ```
 2. 
+
+
+
+if 문을 줄이기!
