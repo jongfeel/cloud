@@ -7,6 +7,8 @@
 ```
 2. 891,894 번째줄  
 $(".rollover")라는 선택자에 .hover(function(){  /  ,function(){ 함수가 두개가 연결되서 쓰이는 구조??
+
+var result = test.replace('가', '나'); //가를 나로
 ```
 ```
 3. 955 번째줄 
