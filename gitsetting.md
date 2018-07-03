@@ -92,3 +92,5 @@ git commit -am "original source"
 git push
 ~~~
 
+
+### github 저장소 이름 및 url 변경하기 
